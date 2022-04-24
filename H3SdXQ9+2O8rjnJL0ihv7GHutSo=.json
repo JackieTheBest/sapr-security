@@ -1,8 +1,8 @@
 {
     "pluginStatus": true,
-    "isPaid": false,
+    "isPaid": true,
     "communityName": "Lights And Sirens Roleplay",
-    "betaCommunity": false,
+    "betaCommunity": true,
     "features": {
         "inGameInterface": true,
         "rangeSimulation": true,
