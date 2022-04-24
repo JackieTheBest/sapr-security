@@ -10,7 +10,7 @@
     },
     "talkAroundRange": 1500,
     "betaServerGroups": [""],
-    "dispatchServerGroups": ["13811", "13800", "13801"],
+    "dispatchServerGroups": [""],
     "dispatchAdvancedServerGroups": [],
     "dispatchNameTags": [
         "(P)",
@@ -28,17 +28,65 @@
     ],
     "civilianServerGroups": [""],
     "civChannels": [0],
-    "radioSystems": [49758],
-    "rtoChannels": [49761],
+    "radioSystems": [],
+    "rtoChannels": [],
     "radioChannels": [
         {
-            "id": 1,
-            "name": "Statewide Radio",
+            "id": 3,
+            "name": "Patrol Ops",
             "soundName": "",
             "type": "LEO",
-            "coloredName": "[color=green]Statewide Radio[/color]",
+            "coloredName": "[color=green]Patrol Ops[/color]",
             "talkEnforcement": true,
             "talkAround": false,
+            "scannable": true,
+            "encrypted": false,
+            "permission": 1
+        },
+        {
+            "id": 6,
+            "name": "Fire Ops",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=yellow]Fire Ops[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": false,
+            "permission": 1
+        },
+        {
+            "id": 7,
+            "name": "Tac 1",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=purple]Tac 1[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": true,
+            "permission": 1
+        },
+        {
+            "id": 8,
+            "name": "Tac 2",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=purple]Tac 2[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": true,
+            "permission": 1
+        },
+        {
+            "id": 5,
+            "name": "Car/Car",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=grey]Car/Car[/color]",
+            "talkEnforcement": true,
+            "talkAround": true,
             "scannable": true,
             "encrypted": false,
             "permission": 1
@@ -63,19 +111,19 @@
             "serverGroupList": [""]
         },
         "permSit": {
-            "serverGroupList": ["13709"]
+            "serverGroupList": [""]
         },
         "permStaff": {
-            "serverGroupList": ["13710"]
+            "serverGroupList": [""]
         },
         "permSenior": {
-            "serverGroupList": ["13711"]
+            "serverGroupList": [""]
         },
         "permAdmin": {
-            "serverGroupList": ["13712", "13713"]
+            "serverGroupList": [""]
         },
         "permSuper": {
-            "serverGroupList": ["13717", "13714"]
+            "serverGroupList": [""]
         }
     }
 }
